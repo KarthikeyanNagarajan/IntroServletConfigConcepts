@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <servlet>
+    <servlet-name>a</servlet-name>
+    <servlet-class>com.karthi.Addition</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>a</servlet-name>
+    <url-pattern>/add</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>b</servlet-name>
+    <servlet-class>com.karthi.Square</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>b</servlet-name>
+    <url-pattern>/sqr</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>c</servlet-name>
+    <servlet-class>com.karthi.MyServlet</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>Karthikeyan</param-value>
+    </init-param>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>c</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+  <context-param>
+    <param-name>name</param-name>
+    <param-value>Karthik</param-value>
+  </context-param>
+</web-app>
