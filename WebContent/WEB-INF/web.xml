@@ -2,7 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <servlet>
     <servlet-name>a</servlet-name>
-    <servlet-class>com.karthi.Addition</servlet-class>
+    <servlet-class>com.servlet.practice.Addition</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>a</servlet-name>
@@ -10,7 +10,7 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>b</servlet-name>
-    <servlet-class>com.karthi.Square</servlet-class>
+    <servlet-class>com.servlet.practice.Square</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>b</servlet-name>
@@ -18,10 +18,10 @@
   </servlet-mapping>
   <servlet>
     <servlet-name>c</servlet-name>
-    <servlet-class>com.karthi.MyServlet</servlet-class>
+    <servlet-class>com.servlet.practice.MyServlet</servlet-class>
     <init-param>
       <param-name>name</param-name>
-      <param-value>Karthikeyan</param-value>
+      <param-value>From Init Param</param-value>
     </init-param>
   </servlet>
   <servlet-mapping>
@@ -30,6 +30,6 @@
   </servlet-mapping>
   <context-param>
     <param-name>name</param-name>
-    <param-value>Karthik</param-value>
+    <param-value>From Context Param</param-value>
   </context-param>
 </web-app>

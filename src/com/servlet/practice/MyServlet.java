@@ -1,4 +1,4 @@
-package com.karthi;
+package com.servlet.practice;
 
 import java.io.IOException;
 
